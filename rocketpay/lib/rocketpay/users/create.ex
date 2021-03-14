@@ -12,9 +12,6 @@ defmodule Rocketpay.Users.Create do
       preload_data(repo, user)
     end)
     |> run_transaction()
-    # params
-    # |> User.changeset()
-    # |> Repo.insert()
   end
 
 
